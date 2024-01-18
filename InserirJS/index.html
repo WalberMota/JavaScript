@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir javascript</title>
+    <!-- script executado antes do HTML ser carregado, não modifica o HTML -->
+    <script src="js/scripts.js"></script>
+</head>
+
+
+<body>
+    <h1>Começando em js</h1>
+    <button onclick="showAlert()">Mostrar Mensagem</button>
+    <script>
+        console.log("Script inserido direto no body"); 
+    </script>
+
+    <!--script carregado depois de todo o HTML ser carregado e permitindo modifica-lo -->
+    <script src="js/scripts2.js"></script>
+</body>
+
+</html>
