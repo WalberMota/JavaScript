@@ -1,2 +1,3 @@
 # JavaScript
- JavaScript101 - Estudos iniciais
+ JavaScript101
+  -  Estudos iniciais
