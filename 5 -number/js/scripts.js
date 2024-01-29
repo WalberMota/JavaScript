@@ -1,9 +1,9 @@
-var numero=5;
+/* var numero=5;
 
 console.log(numero);
 console.log(typeof numero);
+ */
+var float=5.32332322;
 
-var number=5.323;
-
-console.log(number);
-console.log(typeof number);
+console.log(float);
+console.log(typeof float);
