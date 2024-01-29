@@ -5,7 +5,8 @@
  * 
  */
 
-var teste = 1;
+var teste = 1; //procurar sempre usar a palavra reservada var - ciando assim variáveis globais
+                //sem o var pode ser criada mas há o risco de sobrescrever outra variáveis.
 
 console.log(teste);
 
