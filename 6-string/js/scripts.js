@@ -1,22 +1,26 @@
-var numero=5;
+var nome = "Carlos";
+var sobrenome = "da Fonseca";
 
-console.log(numero);
-console.log(typeof numero);
+var nomeCompleto = nome + " " + sobrenome;
 
-var flutuante=5.32332322;
+console.log(nome);
+console.log(typeof nome);
 
-console.log(flutuante);
-console.log(typeof flutuante); //vai imprimir 'number' pois tudo numero em js é um 'number'.
+console.log(typeof "asd");
 
-var textoComNumero='texto com numero 5.323232';
+console.log(nomeCompleto);
 
-console.log(textoComNumero);
-console.log(typeof textoComNumero);//vai dizer que é tipo string
+console.log(typeof "5.292929");
 
-console.log (flutuante+textoComNumero); //devido a baixa tipagem o js aceita somar number e string
-                                        // ele tranforma tudo em string e concatena (cuidado!)
+var frase = 'Esta é uma frase complexa';
 
-console.log(NaN); //Nof a Number é considerado um number pelo js !
-console.log(typeof NaN);
-console.log(typeof +Infinity);//considerado number
-console.log(typeof -Infinity);//considerado number
+console.log(frase);
+console.log(typeof frase);
+
+console.log(nome + " " + frase);
+
+document.write('Ele disse: "Olá"');
+
+document.write("Ele disse: 'Olá'");
+
+console.log("Este número: " + nome);
