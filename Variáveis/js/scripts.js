@@ -1,2 +1,1 @@
-console.log("Arquivo de scripts inserido no HEAD");
-
+var teste =1;
