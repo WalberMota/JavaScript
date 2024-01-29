@@ -12,3 +12,5 @@ var textoComNumero='texto com numero 5.323232';
 
 console.log(textoComNumero);
 console.log(typeof textoComNumero);//vai dizer que é tipo string
+
+console.log (numero+textoComNumero);
