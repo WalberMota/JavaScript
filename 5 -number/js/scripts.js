@@ -14,4 +14,4 @@ console.log(textoComNumero);
 console.log(typeof textoComNumero);//vai dizer que é tipo string
 
 console.log (flutuante+textoComNumero); //devido a baixa tipagem o js aceita somar number e string
-                                        // ele tranforma tudo em string e concatena)
+                                        // ele tranforma tudo em string e concatena (cuidado!)
