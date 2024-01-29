@@ -5,7 +5,7 @@
  * 
  * únicos caracteres especiais para iniciar variáveis são o $ e _ (undeline)
  * variávei não podem ser declaradas começando com um número.
- * é de boa prática em casos de nomes compostos usar camelCase.
+ * é de boa prática em casos de nomes compostos usar camelCase (melhor visibilidade).
  * ex.: var meuPrimeiroNome = "josé"
  */
 
@@ -18,3 +18,11 @@ teste='Agora virou string';
 
 console.log(teste);
 
+let testando = 1;
+
+const ola = 2;
+
+console.log (testando);
+console.log (ola);
+
+var meuNome; //uma variṕavel pode ser criada sem ser inicializada.
