@@ -28,3 +28,4 @@ console.log (ola);
 var meuNome; //uma variṕavel pode ser criada sem ser inicializada.
 
 meuNome="Carlos"; // agora ela foi inicializada.
+console.log (meuNome);
