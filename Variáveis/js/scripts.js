@@ -3,6 +3,7 @@
  * 
  * Podemos mudar o tipo da variável livremente (o js tem tipagem fraca)
  * 
+ * unicos caracteres especiais para iniciar variáveis são o $ e _ (undeline)
  */
 
 var teste = 1; //procurar sempre usar a palavra reservada var - ciando assim variáveis globais
