@@ -11,4 +11,4 @@ console.log(typeof flutuante); //vai imprimir 'number' pois tudo numero em js é
 var textoComNumero='texto com numero 5';
 
 console.log(textoComNumero);
-console.log(typeof textoComNumero);
+console.log(typeof textoComNumero);//vai dizer que é tipo string
