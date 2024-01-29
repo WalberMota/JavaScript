@@ -15,3 +15,6 @@ console.log(typeof textoComNumero);//vai dizer que é tipo string
 
 console.log (flutuante+textoComNumero); //devido a baixa tipagem o js aceita somar number e string
                                         // ele tranforma tudo em string e concatena (cuidado!)
+                                        
+console.log(NaN); //Nof a Number é considerado um number pelo js !
+console.log(typeof NaN);
